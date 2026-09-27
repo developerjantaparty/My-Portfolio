@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ashish Singh — Web Developer & AI/ML Engineer portfolio.">
+  <title>Ashish Singh | Web Developer & AI/ML Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-glow"></div>
+  <div class="noise"></div>
+
+  <header class="nav">
+    <a class="brand" href="#home"><span>AS</span><b>Ashish Singh</b></a>
+    <button class="menu" aria-label="Open menu"><i></i><i></i></button>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#resumes">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="#contact">Let's talk <span>↗</span></a>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-grid"></div>
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> Available for internships & opportunities</div>
+        <p class="kicker">WEB DEVELOPER <em>×</em> AI/ML ENGINEER</p>
+        <h1>I build <span>digital</span><br>experiences that work.</h1>
+        <p class="lead">B.Tech AI/ML student and developer focused on responsive interfaces, interactive web apps, and practical AI/ML projects.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Explore projects <span>↓</span></a>
+          <a class="btn ghost" href="#contact">Get in touch <span>↗</span></a>
+        </div>
+        <div class="social-row">
+          <a href="https://www.linkedin.com/in/ashish-singh-b608a335b" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/developerjantaparty" target="_blank" rel="noopener">GitHub</a>
+          <a href="mailto:ashishsingh8055th@gmail.com">Email</a>
+        </div>
+      </div>
+
+      <div class="hero-art reveal delay-1">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="code-card">
+          <div class="window"><span></span><span></span><span></span><small>ashish.dev</small></div>
+          <pre><code><b>const</b> developer = {
+  name: <i>"Ashish Singh"</i>,
+  focus: [
+    <i>"Frontend"</i>,
+    <i>"AI / ML"</i>
+  ],
+  stack: [
+    <i>"JavaScript"</i>,
+    <i>"React"</i>,
+    <i>"Node.js"</i>
+  ],
+  build: <i>true</i>
+};</code></pre>
+          <div class="status">● <span>building something new</span></div>
+        </div>
+        <div class="float-chip chip-one">React</div>
+        <div class="float-chip chip-two">Python</div>
+        <div class="float-chip chip-three">Node.js</div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-head reveal"><p class="label">01 / ABOUT</p><h2>Developer with a<br><span>builder mindset.</span></h2></div>
+      <div class="about-layout">
+        <div class="about-text reveal">
+          <p>I'm Ashish Singh, a B.Tech student in Artificial Intelligence & Machine Learning who enjoys turning ideas into useful digital products.</p>
+          <p>My work sits between frontend development and AI/ML. I build responsive interfaces with HTML, CSS and JavaScript, while also developing my skills in Python, machine learning and deep learning.</p>
+          <p class="mono">Currently learning → building → deploying → repeating.</p>
+        </div>
+        <div class="stats reveal delay-1">
+          <div><strong>04</strong><span>Live projects</span></div>
+          <div><strong>02</strong><span>Career tracks</span></div>
+          <div><strong>∞</strong><span>Things to build</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="section-head reveal"><p class="label">02 / SKILLS</p><h2>My <span>toolkit.</span></h2><p>Technologies from my frontend and AI/ML development tracks.</p></div>
+      <div class="skill-grid">
+        <article class="skill-card reveal"><b>01</b><h3>Frontend</h3><p>HTML5 · CSS3 · JavaScript · React · Bootstrap</p></article>
+        <article class="skill-card reveal delay-1"><b>02</b><h3>Backend</h3><p>Node.js · PHP · REST APIs · DBMS</p></article>
+        <article class="skill-card reveal delay-2"><b>03</b><h3>AI / ML</h3><p>Python · NumPy · Pandas · Scikit-learn · TensorFlow · PyTorch</p></article>
+        <article class="skill-card reveal"><b>04</b><h3>Tools</h3><p>Git · GitHub · Vercel · VS Code</p></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-head reveal"><p class="label">03 / SELECTED WORK</p><h2>Projects that<br><span>actually run.</span></h2><p>Four live projects, deployed and ready to explore.</p></div>
+
+      <div class="project-list">
+        <article class="project featured reveal">
+          <div class="project-visual chess"><div class="visual-label">01 / GAME</div><div class="chess-mini" id="chessMini"></div><div class="visual-orb"></div></div>
+          <div class="project-info"><p class="project-type">INTERACTIVE WEB APP</p><h3>Grandmaster<br>Chess Pro</h3><p>A browser chess experience with Stockfish engine support, Computer and Local Friends modes, move history, Best Move, board flip and engine strength controls.</p><div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Stockfish</span></div><a class="project-link" href="https://chess-master-ashen.vercel.app/" target="_blank" rel="noopener">View live project <b>↗</b></a></div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-visual number"><div class="visual-label">02 / GAME</div><div class="number-display">?</div><div class="scan"></div></div>
+          <div class="project-info"><p class="project-type">JAVASCRIPT GAME</p><h3>Number<br>Guessing</h3><p>A guessing game with Easy, Medium and Hard difficulty, score tracking, timer, hints and guess history.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="https://guess-the-secret-number-2id8.vercel.app/" target="_blank" rel="noopener">View live project <b>↗</b></a></div>
+        </article>
+
+        <article class="project reveal delay-1">
+          <div class="project-visual tic"><div class="visual-label">03 / GAME</div><div class="tic-grid"><span>X</span><span>O</span><span>X</span><span>O</span><span>X</span><span>O</span><span>O</span><span>X</span><span>O</span></div></div>
+          <div class="project-info"><p class="project-type">INTERACTIVE GAME</p><h3>Tic Tac<br>Pro</h3><p>A clean Tic-Tac-Toe experience supporting two players and a Play vs Computer mode.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="https://tic-tac-pro-seven.vercel.app/" target="_blank" rel="noopener">View live project <b>↗</b></a></div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-visual tube"><div class="visual-label">04 / PLATFORM</div><div class="tube-ui"><div class="tube-top">▶ <b>YourTube</b><span>⌕</span></div><div class="tube-video"><i></i></div><div class="tube-lines"><i></i><i></i><i></i></div></div></div>
+          <div class="project-info"><p class="project-type">WEB PLATFORM</p><h3>Vyro<br>— YourTube Clone</h3><p>A YouTube-style interface with search, sign-in, navigation and category browsing patterns.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>UI</span></div><a class="project-link" href="https://vyro-ivory.vercel.app/" target="_blank" rel="noopener">View live project <b>↗</b></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="resumes" class="section alt">
+      <div class="section-head reveal"><p class="label">04 / RESUME</p><h2>Two directions.<br><span>One developer.</span></h2><p>Choose the profile that matches the opportunity.</p></div>
+      <div class="resume-grid">
+        <article class="resume-card reveal"><div class="resume-top"><span>AI / ML</span><b>01</b></div><h3>AI/ML Engineer Intern</h3><p>Python, machine learning, deep learning, NumPy, Pandas, Scikit-learn, TensorFlow and PyTorch.</p><a class="btn primary" href="assets/Ashish_Singh_AI_ML_Resume.pdf" download>Download resume ↓</a></article>
+        <article class="resume-card reveal delay-1"><div class="resume-top"><span>FRONTEND</span><b>02</b></div><h3>Frontend Developer Intern</h3><p>HTML5, CSS3, JavaScript, React, Bootstrap, Node.js, PHP, DBMS, Git, GitHub and Vercel.</p><a class="btn primary" href="assets/Ashish_Singh_Frontend_Developer_Resume.pdf" download>Download resume ↓</a></article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-grid">
+        <div class="reveal"><p class="label">05 / CONTACT</p><h2>Have an idea?<br><span>Let's build it.</span></h2><p class="lead">I'm open to internships, collaborations and interesting web or AI/ML projects.</p><div class="contact-links"><a href="mailto:ashishsingh8055th@gmail.com">ashishsingh8055th@gmail.com <b>↗</b></a><a href="https://www.linkedin.com/in/ashish-singh-b608a335b" target="_blank" rel="noopener">LinkedIn <b>↗</b></a><a href="https://github.com/developerjantaparty" target="_blank" rel="noopener">GitHub <b>↗</b></a></div></div>
+        <form class="contact-form reveal delay-1" action="mailto:ashishsingh8055th@gmail.com" method="post" enctype="text/plain">
+          <label>Name<input name="name" type="text" placeholder="Your name" required></label>
+          <label>Email<input name="email" type="email" placeholder="you@example.com" required></label>
+          <label>Message<textarea name="message" placeholder="Tell me about the project or opportunity..." required></textarea></label>
+          <button class="btn primary" type="submit">Send message <span>↗</span></button>
+          <small>Opens your email app with the message prepared.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer><div><b>Ashish Singh</b><span> — Web Developer × AI/ML</span></div><div>© <span id="year"></span> Built with HTML, CSS & JavaScript.</div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
